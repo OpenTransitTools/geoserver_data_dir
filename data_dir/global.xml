@@ -2,16 +2,16 @@
   <settings>
     <id>SettingsInfoImpl-68f6c583:154ca420c47:-8000</id>
     <contact>
-      <addressCity>Alexandria</addressCity>
-      <addressCountry>Roman Empire</addressCountry>
-      <addressState>Egypt</addressState>
-      <addressType>Work</addressType>
-      <contactEmail>claudius.ptolomaeus@mercury.olympus.gov</contactEmail>
-      <contactOrganization>OSGeo</contactOrganization>
-      <contactPerson>Claudius Ptolomaeus</contactPerson>
+      <welcome>Welcome to the default OpenTripTools GeoServer data_dir (please understand the data_dir and customize).</welcome>
+      <contactPerson>OpenTripTools Default GeoServer</contactPerson>
       <contactPosition>Chief Geographer</contactPosition>
-      <onlineResource>https://www.osgeo.org/</onlineResource>
-      <welcome>Designed for interoperability, GeoServer publishes data from any major spatial data source using open standards.</welcome>
+      <contactEmail>geoserver@opentriptools.com</contactEmail>
+      <addressCity>Portland</addressCity>
+      <addressState>Oregon</addressState>
+      <addressCountry>USA</addressCountry>
+      <addressType>Default (change me)</addressType>
+      <contactOrganization>OpenTransitTools</contactOrganization>
+      <onlineResource>http://opentransittools.com</onlineResource>
       <internationalAddress class="org.geotools.util.GrowableInternationalString"/>
       <internationalAddressCity class="org.geotools.util.GrowableInternationalString"/>
       <internationalAddressCountry class="org.geotools.util.GrowableInternationalString"/>
@@ -95,7 +95,7 @@
   <metadata>
     <entry key="logRequestsEnabled">false</entry>
   </metadata>
-  <updateSequence>294</updateSequence>
+  <updateSequence>1</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>
