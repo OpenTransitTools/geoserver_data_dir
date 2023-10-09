@@ -1,0 +1,10 @@
+[route_type = 0], [route_type = 2], [route_short_name = 'FX2']  {
+  stroke: '#'[route_color];
+  stroke-width: 3px;
+  z-index: 5;
+}
+
+* {
+  stroke: '#'[route_color];
+  stroke-width: 2px;
+}

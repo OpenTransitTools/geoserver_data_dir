@@ -1,0 +1,12 @@
+<style>
+  <id>ott-stops-style</id>
+  <name>stops</name>
+  <workspace>
+    <id>ott-workspace</id>
+  </workspace>
+  <format>css</format>
+  <languageVersion>
+    <version>1.0.0</version>
+  </languageVersion>
+  <filename>stops.css</filename>
+</style>

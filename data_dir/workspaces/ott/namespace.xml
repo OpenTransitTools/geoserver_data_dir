@@ -1,0 +1,6 @@
+<namespace>
+  <id>ott-namespace</id>
+  <prefix>ott</prefix>
+  <uri>http://opentransittools.com</uri>
+  <isolated>false</isolated>
+</namespace>
