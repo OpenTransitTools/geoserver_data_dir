@@ -1,13 +1,13 @@
 <GeoServerTileLayer>
-  <id>ott-routes_n_stops-layergroup</id>
+  <id>ott-current-routes-layer</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>routes_n_stops</name>
+  <name>ott:current_routes</name>
   <mimeFormats>
     <string>application/vnd.mapbox-vector-tile</string>
-    <string>application/json;type=geojson</string>
     <string>image/png</string>
     <string>image/jpeg</string>
+    <string>application/json;type=geojson</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
@@ -23,7 +23,14 @@
   </metaWidthHeight>
   <expireCache>0</expireCache>
   <expireClients>0</expireClients>
-  <parameterFilters/>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>ott:routes</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
   <gutter>0</gutter>
   <cacheWarningSkips/>
 </GeoServerTileLayer>

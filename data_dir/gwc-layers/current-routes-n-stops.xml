@@ -1,0 +1,29 @@
+<GeoServerTileLayer>
+  <id>ott-current_routes_n_stops-layergroup</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>ott:current_routes_n_stops</name>
+  <mimeFormats>
+    <string>application/vnd.mapbox-vector-tile</string>
+    <string>image/png</string>
+    <string>image/jpeg</string>
+    <string>application/json;type=geojson</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>EPSG:4326</gridSetName>
+    </gridSubset>
+    <gridSubset>
+      <gridSetName>EPSG:900913</gridSetName>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters/>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>
