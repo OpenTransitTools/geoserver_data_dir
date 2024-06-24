@@ -1,0 +1,12 @@
+<style>
+  <id>ott-flex-style</id>
+  <name>flex</name>
+  <workspace>
+    <id>ott-workspace</id>
+  </workspace>
+  <format>css</format>
+  <languageVersion>
+    <version>1.0.0</version>
+  </languageVersion>
+  <filename>flex.css</filename>
+</style>
