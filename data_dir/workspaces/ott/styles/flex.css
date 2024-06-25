@@ -1,8 +1,7 @@
 * {
-    stroke-width: 1px;
-    stroke: [route_color];
-    fill: [route_color];
+    stroke-width: 3px;
+    stroke: [region_color];
+    fill: [region_color];
     fill-opacity: 0.60;
 }
-
 
