@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>ott-current_routes_n_stops-layergroup</id>
+  <id>ott-current-layergroup</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>ott:current_routes_n_stops</name>
+  <name>ott:current</name>
   <mimeFormats>
     <string>application/vnd.mapbox-vector-tile</string>
     <string>image/png</string>

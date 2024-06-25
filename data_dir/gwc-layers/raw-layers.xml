@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>ott-raw_routes_n_stops-layergroup</id>
+  <id>ott-raw-layergroup</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>raw_routes_n_stops</name>
+  <name>ott:raw</name>
   <mimeFormats>
     <string>application/vnd.mapbox-vector-tile</string>
     <string>application/json;type=geojson</string>
