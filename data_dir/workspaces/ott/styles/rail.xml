@@ -4,11 +4,7 @@
   <workspace>
     <id>ott-workspace</id>
   </workspace>
-  <format>css</format>
-  <languageVersion>
-    <version>1.0.0</version>
-  </languageVersion>
-  <filename>rail.css</filename>
+  <filename>rail.sld</filename>
   <dateCreated>2024-12-07 15:00:00.000 UTC</dateCreated>
   <dateModified>2024-12-07 15:00:00.000 UTC</dateModified>
 </style>
