@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE project [
-  <!ENTITY linMAX SYSTEM "/home/geoserve/MapConfig/geoserver/data/styles/linMAX.xsub">
-  <!ENTITY linWES SYSTEM "/home/geoserve/MapConfig/geoserver/data/styles/linWES.xsub">
-  <!ENTITY linPSC SYSTEM "/home/geoserve/MapConfig/geoserver/data/styles/linPSC.xsub">
+  <!ENTITY linMAX SYSTEM "file:/opt/geoserver/data_dir/workspaces/ott/styles/rail/linMAX.xsub">
+  <!ENTITY linWES SYSTEM "file:/opt/geoserver/data_dir/workspaces/ott/styles/rail/linWES.xsub">
+  <!ENTITY linPSC SYSTEM "file:/opt/geoserver/data_dir/workspaces/ott/styles/rail/linPSC.xsub">
 ]>
 <StyledLayerDescriptor version="1.0.0" 
   xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" 

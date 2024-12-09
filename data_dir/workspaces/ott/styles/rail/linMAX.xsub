@@ -1,0 +1,648 @@
+    <!-- MAX Blue, Green, Red and Yellow  -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>BGRY</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#D81526</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">24 8</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F8C213</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">8 24</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>BGRY</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#D81526</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">12 4</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">8 8</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F8C213</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">4 12</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+
+    <!-- MAX Blue, Green and Red  -->
+    <Rule>
+
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>BGR</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">60 30</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#D81526</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">30 60</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>     
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>BGR</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">16 8</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#D81526</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">8 16</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+
+    <!-- MAX Blue, Red, and Yellow -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>BRY</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#D81526</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">32 16</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F8C213</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">16 32</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>BRY</ogc:Literal></ogc:PropertyIsEqualTo>
+             </ogc:And>
+        </ogc:Filter>  
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#D81526</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+        <CssParameter name="stroke-dasharray">8 4</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F8C213</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">4 8</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+
+    <!-- MAX Orange and Green -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>GO</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F58220</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">8 8</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>GO</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F58220</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">8 8</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+
+    <!-- MAX Blue and Red -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>BR</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#D81526</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">8 8</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>BR</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#D81526</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">8 8</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+
+    <!-- MAX Blue and Green -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>BG</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">16 16</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>BG</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">8 8</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+
+    <!-- MAX Green and Yellow -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>GY</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F8C213</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">8 8</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>GY</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F8C213</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-dasharray">8 8</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>  
+
+
+    <!-- MAX Blue -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>B</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>B</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#084C8D</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+    <!-- MAX Green -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>G</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>G</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#008852</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+    <!-- MAX Red -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>R</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#D81526</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>R</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#D81526</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+    <!-- MAX ORANGE #F58220 -->
+
+    <!-- MAX Orange, PSC A & B  (Tilikum Bridge) note: do not color A or B, just Orange -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>O/AL/BL</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F58220</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>O/AL/BL</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>  
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F58220</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>O</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F58220</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>O</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F58220</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+
+    <!-- MAX Yellow -->
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>Y</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F8C213</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>Y</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#F8C213</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>

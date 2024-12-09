@@ -1,0 +1,12 @@
+<style>
+  <id>ott-line-style</id>
+  <name>line</name>
+  <workspace>
+    <id>ott-workspace</id>
+  </workspace>
+  <languageVersion>
+    <version>1.0.0</version>
+  </languageVersion>
+  <format>css</format>
+  <filename>line.css</filename>
+</style>

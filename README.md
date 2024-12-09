@@ -1,2 +1,4 @@
 # geoserver_data_dir
-empty geoserver data directory
+mostly empty geoserver data directory
+
+has a workspace (ott) and styles that work in conjunction with the generated layers from https://github.com/OpenTransitTools/map_server
