@@ -1,0 +1,15 @@
+<layer>
+  <name>smart_stops</name>
+  <id>ott-smart-stops-layer</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ott-stops-style</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ott-smart-stops-featuretype</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

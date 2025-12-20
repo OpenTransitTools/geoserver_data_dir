@@ -1,0 +1,15 @@
+<layer>
+  <name>clackamas_routes</name>
+  <id>ott-clackamas-routes-layer</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ott-routes-style</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ott-clackamas-routes-featuretype</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

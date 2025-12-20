@@ -1,0 +1,15 @@
+<layer>
+  <name>smart_routes</name>
+  <id>ott-smart-routes-layer</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ott-routes-style</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ott-smart-routes-featuretype</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

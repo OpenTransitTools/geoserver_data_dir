@@ -1,0 +1,41 @@
+<featureType>
+  <id>ott-current-rail-featuretype</id>
+  <name>current_rail</name>
+  <nativeName>rail</nativeName>
+  <namespace>
+    <id>ott-namespace</id>
+  </namespace>
+  <title>current_rail</title>
+  <keywords>
+    <string>features</string>
+    <string>rail</string>
+    <string>current</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-124.1</minx>
+    <maxx>-120.1</maxx>
+    <miny>41.0</miny>
+    <maxy>49.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <crs>EPSG:4326</crs>
+    <minx>-124.1</minx>
+    <maxx>-120.1</maxx>
+    <miny>41.0</miny>
+    <maxy>49.0</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>ott-current-datastore</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
