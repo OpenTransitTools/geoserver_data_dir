@@ -1,0 +1,15 @@
+<layer>
+  <name>wash_flex_stops</name>
+  <id>ott-wash_flex-stops-layer</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ott-stops-style</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ott-wash_flex-stops-featuretype</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,15 @@
+<layer>
+  <name>current_patterns</name>
+  <id>ott-current-patterns-layer</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ott-line-style</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ott-current-patterns-featuretype</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,15 @@
+<layer>
+  <name>mult_stops</name>
+  <id>ott-mult-stops-layer</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ott-stops-style</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ott-mult-stops-featuretype</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

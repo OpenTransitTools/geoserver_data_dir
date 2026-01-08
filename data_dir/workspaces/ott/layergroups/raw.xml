@@ -1,0 +1,98 @@
+<layerGroup>
+  <id>ott-raw-layergroup</id>
+  <name>raw</name>
+  <mode>SINGLE</mode>
+  <title>raw</title>
+  <abstractTxt>raw</abstractTxt>
+  <publishables>
+    <published type="layer">
+      <id>ott-clackamas-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-ctran-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-ctran_flex-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-mult-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-rideconnection-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-wash_flex-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-sam-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-smart-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-trimet-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-wapark-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-clackamas-stops-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-ctran-stops-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-ctran_flex-stops-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-mult-stops-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-rideconnection-stops-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-wash_flex-stops-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-sam-stops-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-smart-stops-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-trimet-stops-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-wapark-stops-layer</id>
+    </published>
+  </publishables>
+  <styles>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-stops-style</id></style>
+    <style><id>ott-stops-style</id></style>
+    <style><id>ott-stops-style</id></style>
+    <style><id>ott-stops-style</id></style>
+    <style><id>ott-stops-style</id></style>
+    <style><id>ott-stops-style</id></style>
+    <style><id>ott-stops-style</id></style>
+    <style><id>ott-stops-style</id></style>
+    <style><id>ott-stops-style</id></style>
+    <style><id>ott-stops-style</id></style>
+  </styles>
+  <bounds>
+    <crs class="org.geotools.referencing.crs.DefaultEngineeringCRS">EPSG:4326</crs>
+    <minx>-124.1</minx>
+    <maxx>-120.1</maxx>
+    <miny>41.0</miny>
+    <maxy>49.0</maxy>
+  </bounds>
+</layerGroup>

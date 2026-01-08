@@ -1,0 +1,37 @@
+<layerGroup>
+  <id>ott-current-layergroup</id>
+  <name>current</name>
+  <mode>SINGLE</mode>
+  <title>current</title>
+  <abstractTxt>current</abstractTxt>
+  <workspace>
+      <id>ott-workspace</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>ott-current-flex-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-current-rail-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-current-routes-layer</id>
+    </published>
+    <published type="layer">
+      <id>ott-current-stops-layer</id>
+    </published>
+  </publishables>
+  <styles>
+    <style><id>ott-flex-style</id></style>
+    <style><id>ott-rail-style</id></style>
+    <style><id>ott-routes-style</id></style>
+    <style><id>ott-stops-style</id></style>
+  </styles>
+  <bounds>
+    <crs class="org.geotools.referencing.crs.DefaultEngineeringCRS">EPSG:4326</crs>
+    <minx>-124.1</minx>
+    <maxx>-120.1</maxx>
+    <miny>41.0</miny>
+    <maxy>49.0</maxy>
+  </bounds>
+</layerGroup>

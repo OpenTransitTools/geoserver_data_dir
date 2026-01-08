@@ -1,0 +1,15 @@
+<layer>
+  <name>sam_routes</name>
+  <id>ott-sam-routes-layer</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ott-routes-style</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ott-sam-routes-featuretype</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
