@@ -8,10 +8,11 @@
     <id>ott-workspace</id>
   </workspace>
   <connectionParameters>
-    <entry key="user">None</entry>
+    <entry key="user">ott</entry>
+    <entry key="passwd">ott</entry>
     <entry key="database">ott</entry>
-    <entry key="host">localhost</entry>
-    <entry key="port">None</entry>
+    <entry key="host">db</entry>
+    <entry key="port">5432</entry>
     <entry key="schema">wash_flex</entry>
     <entry key="dbtype">postgis</entry>    
     <entry key="Evictor run periodicity">300</entry>
@@ -35,6 +36,6 @@
     <entry key="Max connection idle time">300</entry>
   </connectionParameters>
   <__default>false</__default>
-  <dateCreated>2026-01-08 22:07:43.834 UTC</dateCreated>
-  <dateModified>2026-01-08 22:07:43.834 UTC</dateModified>
+  <dateCreated>2026-01-09 14:03:03.845 UTC</dateCreated>
+  <dateModified>2026-01-09 14:03:03.845 UTC</dateModified>
 </dataStore>
