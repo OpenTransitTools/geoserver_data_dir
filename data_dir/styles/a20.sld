@@ -5,7 +5,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <NamedLayer>
-  <Name>Aerials Far Out Zooms</Name>
+  <Name>a20ft</Name>
   <UserStyle>
   <!-- Start of 1890   Zoom 10 (close) -->
   <!-- 1890 - 3780     Zoom  9  -->
