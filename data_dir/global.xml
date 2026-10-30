@@ -2,35 +2,20 @@
   <settings>
     <id>SettingsInfoImpl-68f6c583:154ca420c47:-8000</id>
     <contact>
-      <welcome>Welcome to the default OpenTripTools GeoServer data_dir (please understand the data_dir and customize).</welcome>
-      <contactPerson>OpenTripTools Default GeoServer</contactPerson>
-      <contactPosition>Chief Geographer</contactPosition>
-      <contactEmail>geoserver@opentriptools.com</contactEmail>
       <addressCity>Portland</addressCity>
-      <addressState>Oregon</addressState>
       <addressCountry>USA</addressCountry>
-      <addressType>Default (change me)</addressType>
+      <addressState>Oregon</addressState>
+      <addressType>Work</addressType>
+      <contactEmail>geoserver@opentransittools.com</contactEmail>
       <contactOrganization>OpenTransitTools</contactOrganization>
-      <onlineResource>http://opentransittools.com</onlineResource>
-      <internationalAddress class="org.geotools.util.GrowableInternationalString"/>
-      <internationalAddressCity class="org.geotools.util.GrowableInternationalString"/>
-      <internationalAddressCountry class="org.geotools.util.GrowableInternationalString"/>
-      <internationalAddressDeliveryPoint class="org.geotools.util.GrowableInternationalString"/>
-      <internationalAddressPostalCode class="org.geotools.util.GrowableInternationalString"/>
-      <internationalAddressState class="org.geotools.util.GrowableInternationalString"/>
-      <internationalAddressType class="org.geotools.util.GrowableInternationalString"/>
-      <internationalContactEmail class="org.geotools.util.GrowableInternationalString"/>
-      <internationalContactFacsimile class="org.geotools.util.GrowableInternationalString"/>
-      <internationalContactOrganization class="org.geotools.util.GrowableInternationalString"/>
-      <internationalContactPerson class="org.geotools.util.GrowableInternationalString"/>
-      <internationalContactPosition class="org.geotools.util.GrowableInternationalString"/>
-      <internationalContactVoice class="org.geotools.util.GrowableInternationalString"/>
-      <internationalOnlineResource class="org.geotools.util.GrowableInternationalString"/>
-      <internationalWelcome class="org.geotools.util.GrowableInternationalString"/>
+      <contactPerson>Mr. OpenTransitTools GeoServer</contactPerson>
+      <contactPosition>Chief Geographer</contactPosition>
+      <onlineResource>https://github.com/OpenTransitTools</onlineResource>
+      <welcome>Welcome to the OpenTransitTools GeoServer data_dir.</welcome>
     </contact>
     <charset>UTF-8</charset>
     <numDecimals>8</numDecimals>
-    <onlineResource>http://geoserver.org</onlineResource>
+    <onlineResource>http://opentransittools.com</onlineResource>
     <verbose>false</verbose>
     <verboseExceptions>false</verboseExceptions>
     <metadata>
@@ -44,6 +29,7 @@
     <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
     <showCreatedTimeColumnsInAdminList>false</showCreatedTimeColumnsInAdminList>
     <showModifiedTimeColumnsInAdminList>false</showModifiedTimeColumnsInAdminList>
+    <showModifiedUserAdminList>false</showModifiedUserAdminList>
     <useHeadersProxyURL>false</useHeadersProxyURL>
   </settings>
   <jai>
@@ -54,36 +40,6 @@
     <memoryCapacity>0.5</memoryCapacity>
     <memoryThreshold>0.75</memoryThreshold>
     <imageIOCache>false</imageIOCache>
-    <pngAcceleration>true</pngAcceleration>
-    <jpegAcceleration>true</jpegAcceleration>
-    <allowNativeMosaic>false</allowNativeMosaic>
-    <allowNativeWarp>false</allowNativeWarp>
-    <jaiext>
-      <jaiExtOperations class="sorted-set">
-        <string>Affine</string>
-        <string>BandCombine</string>
-        <string>BandMerge</string>
-        <string>BandSelect</string>
-        <string>Binarize</string>
-        <string>Border</string>
-        <string>ColorConvert</string>
-        <string>Crop</string>
-        <string>ErrorDiffusion</string>
-        <string>Format</string>
-        <string>ImageFunction</string>
-        <string>Lookup</string>
-        <string>Mosaic</string>
-        <string>Null</string>
-        <string>OrderedDither</string>
-        <string>Rescale</string>
-        <string>Scale</string>
-        <string>Stats</string>
-        <string>Translate</string>
-        <string>Warp</string>
-        <string>algebric</string>
-        <string>operationConst</string>
-      </jaiExtOperations>
-    </jaiext>
   </jai>
   <coverageAccess>
     <maxPoolSize>10</maxPoolSize>
@@ -99,6 +55,11 @@
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>
-  <xmlExternalEntitiesEnabled>true</xmlExternalEntitiesEnabled>
   <webUIMode>DEFAULT</webUIMode>
+  <userDetailsDisplaySettingsInfo>
+    <loggedInUserDisplayMode>USERNAME</loggedInUserDisplayMode>
+    <showProfileColumnsInUserList>false</showProfileColumnsInUserList>
+    <emailDisplayMode>DOMAIN_ONLY</emailDisplayMode>
+    <revealEmailAtClick>false</revealEmailAtClick>
+  </userDetailsDisplaySettingsInfo>
 </global>
