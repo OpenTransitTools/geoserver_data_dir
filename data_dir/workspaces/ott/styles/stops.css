@@ -1,0 +1,9 @@
+[@sd < 35000] {
+  mark: symbol(circle);
+  mark-size: 6px;
+  :mark {
+    fill: white;
+    stroke: black;
+    stroke-width: 2px;
+  }
+}

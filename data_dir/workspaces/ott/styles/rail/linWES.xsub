@@ -1,0 +1,33 @@
+    <!-- WES -->  
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>WES</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+        <MinScaleDenominator>151181</MinScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#000000</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">2.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
+    <Rule>
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>line</ogc:PropertyName><ogc:Literal>WES</ogc:Literal></ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+        <MaxScaleDenominator>151181</MaxScaleDenominator>
+        <LineSymbolizer>
+            <Stroke>
+                <CssParameter name="stroke">#000000</CssParameter>
+                <CssParameter name="stroke-linejoin">round</CssParameter>
+                <CssParameter name="stroke-width">3.0</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+    </Rule>
