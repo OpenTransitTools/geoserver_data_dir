@@ -11,6 +11,9 @@
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
+      <gridSetName>EPSG:2913</gridSetName>
+    </gridSubset>
+    <gridSubset>
       <gridSetName>EPSG:4326</gridSetName>
     </gridSubset>
     <gridSubset>
